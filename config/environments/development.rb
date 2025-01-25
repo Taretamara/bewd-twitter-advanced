@@ -42,6 +42,9 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  # Using the Amazon S3 settings for Active Storage
+  config.active_storage.service = :amazon
+
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
